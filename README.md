@@ -39,3 +39,8 @@ Validated through testbenches and hardware implementation on the **Nexys A7-100T
 | **Chip Top** | Integrates all modules together |
 
 ---
+
+![Waveform Test 1](design/images/waveform_test_1_3x3_transactions.png)
+
+
+
