@@ -26,7 +26,7 @@ Validated through testbenches and hardware implementation on the **Nexys A7-100T
 ---
 
 # System Architecture
-
+![TX UART Controller Micro Architecture](design/images/micro-architecture.png)
 ## Major Components
 
 | Module | Description |
