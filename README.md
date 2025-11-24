@@ -5,6 +5,10 @@ Validated through testbenches and hardware implementation on the **Nexys A7-100T
 
 ### **Chip_Top_TX.sv — Port Summary**
 
+![Top TX UART Controller](design/images/Top_TX_UART_Controller.png)
+
+
+
 | Signal | Direction | Width | Description |
 |--------|-----------|-------|-------------|
 | `system_clock` | Input | 1 | 100 MHz FPGA system clock |
