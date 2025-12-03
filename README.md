@@ -4,6 +4,8 @@ A complete **SystemVerilog implementation** of a UART Transmit Controller suppor
 
 Validated through testbenches and hardware implementation on the **Nexys A7-100T (Artix-7)** board.
 
+![Demo](design/images/putty_reciving_tx_data.gif)
+
 ![Design Waveform](design/images/waveform_test_1_3x3_transactions.png)
 
 ## Key Features
