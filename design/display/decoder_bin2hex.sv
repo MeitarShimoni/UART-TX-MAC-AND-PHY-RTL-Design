@@ -1,3 +1,7 @@
+// FILE : SEVEN SEGMENT DECODER 
+// Author : MEITAR SHIMONI
+// DESCRIPTION : DECODING COMMON ANODE
+
 module decoder_bin2hex(
     input [3:0] bin_in_hex,
     output reg [6:0] decoded
@@ -22,8 +26,8 @@ always @(*) begin
         4'b1101: decoded = ~(7'b011_1101); // D
         4'b1110: decoded = ~(7'b100_1111); // E
         4'b1111: decoded = ~(7'b100_0111); // F
-        default: decoded = ~(7'b000_0000); // Default case
+        default: decoded = ~(7'b111_1110); // Default case
     endcase
-end
+end 
 
 endmodule
